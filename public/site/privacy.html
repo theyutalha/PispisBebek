@@ -102,6 +102,19 @@
       font-size: 0.95rem;
     }
 
+    .summary {
+      margin-top: 18px;
+      padding: 14px 16px;
+      border: 1px solid #e9dece;
+      border-radius: 12px;
+      background: #fff9f0;
+    }
+
+    .summary h4 {
+      margin: 0 0 8px;
+      font-size: 1rem;
+    }
+
     footer {
       text-align: center;
       color: var(--muted);
@@ -124,55 +137,133 @@
   <main class="container">
     <section class="panel">
       <h2>PışPış Gizlilik Politikası</h2>
-      <p class="muted">Son güncelleme: 3 Mart 2026</p>
+      <p class="muted">Platform: iOS (iPhone) • Hedef Ülke: Türkiye</p>
+
+      <h3>1) Giriş</h3>
       <p>
-        PışPış, ebeveynlerin bebek gelişimini takip etmesini kolaylaştırmak için tasarlanmış
-        iPhone odaklı bir uygulamadır. Gizlilik, ürünün temel tasarım kararlarından biridir.
+        PışPış, bebek gelişim ve takip süreçlerini kolaylaştırmak için tasarlanmış bir mobil uygulamadır.
+        Gizliliğiniz ve kişisel verilerinizin korunması bizim için önceliklidir. Bu metin, 6698 sayılı
+        Kişisel Verilerin Korunması Kanunu (KVKK) ile uyumlu bir çerçevede hazırlanmıştır ve App Store
+        standartlarıyla çelişmeyecek genel gizlilik ilkelerini içerir.
       </p>
 
-      <h3>1. Toplanan Veriler</h3>
-      <p>
-        Uygulama içine eklediğiniz bebek profili, günlük kayıtlar, sağlık notları, anılar ve
-        istatistik verileri yalnızca sizin kullanımınız için tutulur.
-      </p>
-
-      <h3>2. Verilerin Saklanması</h3>
+      <h3>2) Toplanan Veriler</h3>
       <ul>
-        <li>PışPış offline-first yaklaşım ile çalışır.</li>
-        <li>Veriler cihazınızda, yerel olarak saklanır.</li>
-        <li>Merkezi bir sunucuya otomatik veri aktarımı yapılmaz.</li>
+        <li><strong>Profil Verileri:</strong> Bebek profili bilgileri (ad, doğum tarihi, benzeri kullanıcı girişi verileri).</li>
+        <li><strong>Gelişim Kayıtları:</strong> Ölçüm, anı, beslenme, bez, aşı/sağlık, ateş/ilaç, uyku, sağım ve anne saati kayıtları.</li>
+        <li><strong>İstatistik Verileri:</strong> Uygulama içinde oluşturulan grafikler, özetler ve analizler.</li>
+        <li><strong>Medya/İçerik:</strong> Kullanıcının seçtiği fotoğraflar ve isteğe bağlı ses kayıtları.</li>
+        <li><strong>Takvim/Bildirim Verileri:</strong> Kullanıcının izin vermesi halinde oluşturulan hatırlatıcı kayıtları.</li>
       </ul>
 
-      <h3>3. İzinler</h3>
+      <h3>3) Verilerin Kullanım Amaçları</h3>
       <ul>
-        <li>Bildirim izni: Aşı ve ilaç hatırlatmaları için kullanılır.</li>
-        <li>Takvim izni: Aşı kayıtlarını iOS Takvim’e eklemek için kullanılır.</li>
-        <li>Medya erişimi: Fotoğraflı anı kayıtları için isteğe bağlı kullanılır.</li>
+        <li>Bebek gelişiminin düzenli takibi ve uygulama özelliklerinin çalıştırılması.</li>
+        <li>Hatırlatma, takvim kaydı ve kullanıcı tarafından talep edilen dışa aktarma/paylaşma işlemleri.</li>
+        <li>Veri minimizasyonu ve amaçla sınırlılık ilkeleri kapsamında yalnızca gerekli verinin işlenmesi.</li>
       </ul>
 
-      <h3>4. Veri Paylaşımı</h3>
+      <h3>4) İzinler (Mikrofon, Fotoğraf, Takvim, Bildirim)</h3>
+      <ul>
+        <li><strong>Mikrofon:</strong> Anılar için ses kaydı özelliğinde, sadece kullanıcı onayı ile kullanılır.</li>
+        <li><strong>Fotoğraf/Medya:</strong> Fotoğraf seçme/ekleme işlemleri için, sadece kullanıcı onayı ile kullanılır.</li>
+        <li><strong>Takvim:</strong> Aşı veya benzeri kayıtların takvime eklenmesi için isteğe bağlıdır.</li>
+        <li><strong>Bildirim:</strong> Lokal hatırlatmalar (aşı/ilaç gibi) için kullanıcı iznine bağlıdır.</li>
+      </ul>
+
+      <h3>5) Veri Saklama ve Güvenlik</h3>
       <p>
-        Verileriniz üçüncü taraflarla satılmaz veya reklam amaçlı paylaşılmaz.
-        Kullanıcı tarafından başlatılan dışa aktarma işlemleri (PDF, CSV/Excel) yalnızca
-        sizin seçtiğiniz paylaşım kanalları üzerinden gerçekleşir.
+        PışPış varsayılan olarak backend kullanmaz; veriler cihaz üzerinde (on-device) saklanır.
+        Uygulama, verilerinizi korumak için iOS güvenlik mekanizmalarıyla uyumlu şekilde çalışır.
+        Sunucuya otomatik aktarım yapılmaz.
       </p>
 
-      <h3>5. Veri Silme ve Kontrol</h3>
+      <h3>6) Üçüncü Taraflar ve Paylaşım</h3>
       <p>
-        Kayıtları uygulama içinden düzenleyebilir veya silebilirsiniz. Uygulamayı kaldırmanız
-        durumunda cihazda tutulan yerel veriler de silinir.
+        Kişisel verileriniz satılmaz. Veriler, reklam veya pazarlama amacıyla üçüncü taraflara
+        aktarılmaz. PDF/CSV gibi dışa aktarma işlemleri yalnızca kullanıcı tarafından başlatılır
+        ve kullanıcının seçtiği paylaşım kanalında gerçekleşir.
       </p>
 
-      <h3>6. Çocuk Verileri</h3>
+      <h3>7) Çocukların Gizliliği</h3>
       <p>
-        PışPış, ebeveynlerin kendi çocuklarına ait verileri takip etmesi amacıyla sunulur.
-        Uygulama, çocuklardan doğrudan hesap açma veya bağımsız kullanım talep etmez.
+        Uygulama ebeveyn/vasi kullanımını hedefler. Çocuklara ait verilerin işlenmesi, ebeveynin
+        sorumluluğundadır. PışPış, çocuklardan doğrudan üyelik veya bağımsız kullanım talep etmez.
       </p>
 
-      <h3>7. Politika Değişiklikleri</h3>
+      <h3>8) Kullanıcı Hakları (KVKK)</h3>
+      <p>KVKK kapsamında kullanıcılar, ilgili mevzuat sınırları içinde aşağıdaki haklara sahiptir:</p>
+      <ul>
+        <li>Kişisel verilerinin işlenip işlenmediğini öğrenme,</li>
+        <li>İşlenmişse buna ilişkin bilgi talep etme,</li>
+        <li>Eksik/yanlış işlenmişse düzeltilmesini isteme,</li>
+        <li>Şartları oluştuğunda silinmesini/yok edilmesini talep etme.</li>
+      </ul>
+
+      <h3>9) Uluslararası Kullanıcılar İçin Genel Not</h3>
       <p>
-        Bu politika zaman zaman güncellenebilir. Güncel sürüm bu sayfada yayınlanır.
+        PışPış Türkiye merkezli gizlilik yaklaşımı ile tasarlanmıştır. Uygulamayı farklı ülkelerde
+        kullanmanız halinde yerel mevzuat kapsamında ek haklarınız olabilir.
       </p>
+
+      <h3>10) Değişiklikler</h3>
+      <p>Bu Gizlilik Politikası güncellenebilir. Güncel sürüm bu sayfada yayınlandığı tarihte yürürlüğe girer.</p>
+
+      <h3>11) İletişim Bilgileri</h3>
+      <p>Gizlilik talepleri için: <a href="mailto:talhabekaroglu@gmail.com">talhabekaroglu@gmail.com</a></p>
+
+      <h3>12) Yasal Sorumluluk Reddi (Tıbbi Tavsiye Değildir)</h3>
+      <p>
+        PışPış, sağlıkla ilgili takip ve bilgilendirme sunar; ancak tıbbi tanı, tedavi veya profesyonel
+        sağlık hizmeti sağlamaz. Tıbbi kararlar için hekime başvurulmalıdır.
+      </p>
+
+      <h3>Ek Bilgi Kaynakları</h3>
+      <p>
+        Uygulama içindeki bazı bilgilendirme içerikleri ve kullanıcıya sunulan takip yaklaşımı, aşağıdaki
+        kamuya açık sağlık ve gelişim kaynaklarından yararlanılarak hazırlanabilir. Bu kaynaklar yalnızca
+        genel bilgilendirme amaçlıdır.
+      </p>
+      <ul>
+        <li>
+          World Health Organization (WHO) – Child Growth Standards:
+          <a href="https://www.who.int/tools/child-growth-standards" target="_blank" rel="noopener noreferrer">
+            https://www.who.int/tools/child-growth-standards
+          </a>
+        </li>
+        <li>
+          T.C. Sağlık Bakanlığı – Aşı Takvimi:
+          <a href="https://asi.saglik.gov.tr/bagisiklama-programi-ve-asi-takvimi/asi-takvimi.html" target="_blank" rel="noopener noreferrer">
+            https://asi.saglik.gov.tr/bagisiklama-programi-ve-asi-takvimi/asi-takvimi.html
+          </a>
+        </li>
+        <li>
+          Centers for Disease Control and Prevention (CDC) – Developmental Milestones:
+          <a href="https://www.cdc.gov/act-early/milestones/" target="_blank" rel="noopener noreferrer">
+            https://www.cdc.gov/act-early/milestones/
+          </a>
+        </li>
+        <li>
+          American Academy of Pediatrics (HealthyChildren.org) – Fever Guidance:
+          <a href="https://www.healthychildren.org/English/health-issues/conditions/fever/Pages/default.aspx" target="_blank" rel="noopener noreferrer">
+            https://www.healthychildren.org/English/health-issues/conditions/fever/Pages/default.aspx
+          </a>
+        </li>
+      </ul>
+
+      <div class="summary">
+        <h4>Özet Gizlilik Beyanı</h4>
+        <ul>
+          <li>Verileriniz varsayılan olarak cihazınızda saklanır (on-device).</li>
+          <li>Backend zorunluluğu yoktur; otomatik sunucu aktarımı yapılmaz.</li>
+          <li>Mikrofon, fotoğraf, takvim ve bildirim erişimleri sadece izinle çalışır.</li>
+          <li>Kişisel veriler satılmaz, reklam amacıyla paylaşılmaz.</li>
+          <li>KVKK kapsamındaki erişim/düzeltme/silme haklarınızı kullanabilirsiniz.</li>
+          <li>Uygulama tıbbi tavsiye yerine geçmez.</li>
+        </ul>
+      </div>
+
+      <p class="muted"><strong>Yürürlük Tarihi:</strong> [Tarih]</p>
     </section>
   </main>
 
